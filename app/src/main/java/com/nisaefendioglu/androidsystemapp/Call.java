@@ -16,6 +16,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class Call extends Fragment {
     View view;
     Button one,two,three,four,five,six,seven,eight,nine,zero;
@@ -25,6 +27,7 @@ public class Call extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.call, container, false);
+
         define();
         return view;
 

@@ -1,17 +1,16 @@
 package com.nisaefendioglu.androidsystemapp;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    BottomNavigationView bottomNavigationView;
+    BottomNavigationView bottomNavigationappView,bottomNavigationView;
     Fragment fragment = null;
 
     @Override
@@ -20,22 +19,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
-        bottomNavigationView = findViewById(R.id.bottomNavigation);
-        bottomNavigationView.setItemIconTintList(null);
-
-        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+        bottomNavigationappView = findViewById(R.id.bottomNavigationapp);
+        bottomNavigationappView.setItemIconTintList(null);
+        bottomNavigationappView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
-            public void onNavigationItemReselected(MenuItem item) {
+            public boolean onNavigationItemSelected(MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.phone:
+                        bottomNavigationappView.findViewById(R.id.bottomNavigationapp).setVisibility(View.GONE);
+                        bottomNavigationView.findViewById(R.id.bottomNavigation).setVisibility(View.VISIBLE);
                         fragment = new Call();
                         break;
                     case R.id.internet:
+                        bottomNavigationappView.findViewById(R.id.bottomNavigationapp).setVisibility(View.GONE);
+                        bottomNavigationView.findViewById(R.id.bottomNavigation).setVisibility(View.VISIBLE);
                         fragment = new Internet();
                         break;
                     case R.id.messages:
+                        bottomNavigationappView.findViewById(R.id.bottomNavigationapp).setVisibility(View.GONE);
+                        bottomNavigationView.findViewById(R.id.bottomNavigation).setVisibility(View.VISIBLE);
                         fragment = new Chat();
                         break;
                     case R.id.apps:
@@ -43,8 +45,32 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,fragment).commit();
-                return;
+                return true;
             }
         });
+        bottomNavigationView = findViewById(R.id.bottomNavigation);
+        bottomNavigationView.setItemIconTintList(null);
+        bottomNavigationView.findViewById(R.id.bottomNavigation).setVisibility(View.GONE);
+
+        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+            @Override
+            public void onNavigationItemReselected(MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.back:
+                        Intent back = new Intent(MainActivity.this,MainActivity.class);
+                        startActivity(back);
+                        break;
+                    case R.id.exit:
+                        Intent exit = new Intent(MainActivity.this,MainActivity.class);
+                        startActivity(exit);
+                        break;
+                    case R.id.all:
+                        Intent all = new Intent(MainActivity.this,MainActivity.class);
+                        startActivity(all);
+                        break;
+                }
+            }
+        });
+
     }
 }

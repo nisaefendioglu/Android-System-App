@@ -11,6 +11,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.nisaefendioglu.androidsystemapp.loadUrlPages.Facebook;
 import com.nisaefendioglu.androidsystemapp.loadUrlPages.Github;
 import com.nisaefendioglu.androidsystemapp.loadUrlPages.Instagram;

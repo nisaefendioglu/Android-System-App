@@ -13,7 +13,7 @@
         android:layout_height="60dp"
         android:textSize="50dp"
         android:gravity="right|center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
 
     <Button
@@ -22,10 +22,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="50dp"
+        android:background="@drawable/butonbackground"
         android:text="1"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="#dcdde1"
         />
 
     <Button
@@ -34,11 +35,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="150dp"
+        android:background="@drawable/butonbackground"
         android:text="2"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-         />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/three"
@@ -46,10 +47,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="250dp"
+        android:background="@drawable/butonbackground"
         android:text="3"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"/>
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/four"
@@ -57,11 +59,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="50dp"
+        android:background="@drawable/butonbackground"
         android:text="4"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-        />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/five"
@@ -69,11 +71,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="150dp"
+        android:background="@drawable/butonbackground"
         android:text="5"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-        />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/six"
@@ -81,11 +83,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="250dp"
+        android:background="@drawable/butonbackground"
         android:text="6"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-         />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/seven"
@@ -93,11 +95,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="300dp"
         android:layout_marginLeft="50dp"
+        android:background="@drawable/butonbackground"
         android:text="7"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-      />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/eight"
@@ -105,11 +107,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="300dp"
         android:layout_marginLeft="150dp"
+        android:background="@drawable/butonbackground"
         android:text="8"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-       />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/nine"
@@ -117,11 +119,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="300dp"
         android:layout_marginLeft="250dp"
+        android:background="@drawable/butonbackground"
         android:text="9"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-        />
+        app:backgroundTint="#dcdde1"        />
 
     <Button
         android:id="@+id/zero"
@@ -129,11 +131,11 @@
         android:layout_height="80dp"
         android:layout_marginTop="400dp"
         android:layout_marginLeft="150dp"
+        android:background="@drawable/butonbackground"
         android:text="0"
         android:textColor="@color/black"
         android:textSize="40dp"
-        app:backgroundTint="@color/white"
-        />
+        app:backgroundTint="#dcdde1"        />
 
     <ImageButton
         android:id="@+id/call"
