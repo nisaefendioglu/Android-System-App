@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Phone"
+        android:title="Phone"
+        android:icon="@drawable/call" />
+    <item android:id="@+id/internet"
+        android:title="Internet"
+        android:icon="@drawable/chrome" />
+    <item android:id="@+id/messages"
+        android:title="Messages"
+        android:icon="@drawable/messages" />
+    <item android:id="@+id/music"
+        android:title="Apps"
+        android:icon="@drawable/apps" />
+</menu>
