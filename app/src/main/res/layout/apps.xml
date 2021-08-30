@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp">
+
+    <ImageButton
+    android:id="@+id/internet"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/chrome"
+    android:layout_marginLeft="40dp"
+    />
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/call"
+        android:layout_marginLeft="40dp"  />
+
+    <ImageButton
+        android:id="@+id/messages"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/messages"
+        android:layout_marginLeft="40dp"  />
+
+    <ImageButton
+        android:id="@+id/music"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spotify"
+        android:layout_marginLeft="40dp"  />
+
+    <ImageButton
+        android:id="@+id/gallery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/gallery"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="-320dp"/>
+
+    <ImageButton
+        android:id="@+id/youtube"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/youtube"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/snapchat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/snapchat"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/facebook"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/instagram"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="-320dp"/>
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/twitter"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/whatsapp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/whatsapp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/settings"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/maps"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/map"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="-320dp"/>
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/camera"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/github"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/github"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageButton
+        android:id="@+id/linkedin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/linkedin"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"/>
+
+</LinearLayout>
