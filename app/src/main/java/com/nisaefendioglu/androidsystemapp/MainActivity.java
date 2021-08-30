@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new Internet();
                         break;
                     case R.id.messages:
-                        fragment = new Messages();
+                        fragment = new Chat();
                         break;
                     case R.id.apps:
                         fragment = new Apps();
