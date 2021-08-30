@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 public class Apps extends Fragment {
 
     View view;
-    ImageButton call,internet,messages,music,gallery,youtube,snapchat,facebook;
+    ImageButton call,internet,messages,music,gallery,youtube,snapchat,facebook,instagram,twitter,whatsapp,settings,maps,camera,github,linkedin,mail;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.apps, container, false);
@@ -26,6 +26,15 @@ public class Apps extends Fragment {
         youtube = view.findViewById(R.id.youtube);
         snapchat = view.findViewById(R.id.snapchat);
         facebook = view.findViewById(R.id.facebook);
+        instagram = view.findViewById(R.id.instagram);
+        twitter = view.findViewById(R.id.twitter);
+        whatsapp = view.findViewById(R.id.whatsapp);
+        settings = view.findViewById(R.id.settings);
+        maps = view.findViewById(R.id.maps);
+        camera = view.findViewById(R.id.camera);
+        github = view.findViewById(R.id.github);
+        linkedin = view.findViewById(R.id.linkedin);
+        mail = view.findViewById(R.id.mail);
         return view;
     }
 }
