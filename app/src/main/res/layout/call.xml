@@ -13,7 +13,7 @@
         android:layout_height="60dp"
         android:textSize="50dp"
         android:gravity="right|center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
 
     <Button

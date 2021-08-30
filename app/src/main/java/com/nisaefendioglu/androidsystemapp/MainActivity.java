@@ -12,7 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationappView,bottomNavigationView;
     Fragment fragment = null;
-
+    int counter = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,8 +41,15 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new Chat();
                         break;
                     case R.id.apps:
-                        fragment = new Apps();
-                        break;
+                        counter ++;
+                        if (counter % 2 == 0) {
+                            fragment = new Apps();
+                            break;
+                        }
+                        else {
+                            Intent appClose = new Intent(MainActivity.this,MainActivity.class);
+                            startActivity(appClose);
+                        }
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,fragment).commit();
                 return true;
