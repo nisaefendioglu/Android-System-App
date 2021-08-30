@@ -7,7 +7,7 @@
 Screenshots of the app :
 <br><br><br>
 
-![Adsız](https://user-images.githubusercontent.com/48391281/131368161-da8eb826-3725-4935-8de9-9b4d57d87481.png)
+![Adsız](https://user-images.githubusercontent.com/48391281/131369107-0e2cb4fa-0403-4916-b2f3-d983023852f6.png)
 
 
 
