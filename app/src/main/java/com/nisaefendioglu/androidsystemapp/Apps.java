@@ -195,5 +195,14 @@ public class Apps extends Fragment {
 
             }
         });
+
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                fragment = new Settings();
+                FragmentManager fm = getFragmentManager();
+                getFragmentManager().beginTransaction().replace(R.id.fragmentContainer,fragment).commit();
+            }
+        });
     }
 }

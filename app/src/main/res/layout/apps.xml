@@ -10,7 +10,7 @@
     android:layout_width="50dp"
     android:layout_height="50dp"
     android:background="@drawable/chrome"
-    android:layout_marginLeft="40dp"
+    android:layout_marginLeft="20dp"
     />
 
     <ImageButton
